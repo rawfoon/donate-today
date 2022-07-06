@@ -159,18 +159,19 @@
     
     .contribute {
         width: 80%;
-        margin: 0 auto;
+        margin: 50px auto;
         margin-top: 100px;
     }
     
     .contribute-container {
         display: flex;
+        justify-content: center;
     }
     
     .contribution-card {
         margin: 5%;
-        width: 470px;
-        height: 470px;
+        width: 400px;
+        height: 400px;
     }
     
     .contribution-card p {
@@ -186,3 +187,89 @@
         height: 450px
     }
     /*contribution section end */
+    /* organization section start */
+    
+    .organization {
+        text-align: center;
+    }
+    
+    .ogranaization-container {
+        width: 80%;
+        margin: auto;
+        padding: 100px 0;
+        display: flex;
+    }
+    
+    .logo {
+        width: 30%;
+        margin-right: 5%;
+    }
+    
+    .logo img {
+        width: 300px;
+    }
+    
+    .organization-text {
+        width: 65%;
+        text-align: left;
+    }
+    
+    .organization-text h1 {
+        color: navy;
+    }
+    
+    .organization-text p {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    /* organization section end */
+    /* subscribe section start */
+    
+    .subscribe-section {
+        text-align: center;
+        margin: 50px auto;
+    }
+    
+    .email-section {
+        width: 800px;
+        height: 200px;
+        background-color: #FFF4D6;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .email-section input {
+        width: 450px;
+        height: 45px;
+        padding-left: 2%;
+        margin-right: -5px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    button {
+        border: none;
+        outline: none;
+    }
+    /* subscribe section end */
+    /* footer start */
+    
+    footer {
+        height: 180px;
+        text-align: center;
+        background-color: #0B0D17;
+        padding-top: 50px;
+    }
+    
+    footer h1 {
+        color: #FF5959;
+    }
+    
+    footer p {
+        color: white;
+    }
+    /* footer end */
