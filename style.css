@@ -12,6 +12,18 @@
     border-radius: 5px;
 }
 
+h1 {
+    font-size: 2.5rem;
+    color: #121212;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #707070;
+    width: 50%;
+    margin: 15px auto;
+}
+
 
 /* top section start */
 
@@ -33,11 +45,118 @@
 
 .top-container h1 {
     padding-top: 150px;
-    font-size: 3rem;
+    font-size: 60px;
+    /* font-size: 3rem; */
+    color: white;
 }
 
 .top-container p {
     font-size: 1.2rem;
     width: 50%;
     margin: 20px auto 40px;
+    color: white;
+}
+
+
+/* top section end */
+
+
+/* donate today section start */
+
+.donate-today {
+    height: 550px;
+}
+
+.donate-today-cotainer {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.donate-today-amout-card {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.amout-card {
+    width: 135px;
+    height: 123px;
+    background-color: #fafafa;
+    color: #707070;
+    font-size: 1.8rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.colored-card {
+    background: #ffeeee;
+    color: #FF5959;
+    border: 1px solid #FF5959;
+}
+
+.donate-today-cotainer input {
+    display: block;
+    width: 55%;
+    margin: 40px auto;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #707070;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* donate today section end */
+
+
+/* donation plan start */
+
+.plan-contaier {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.plan-card-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.plan-card {
+    width: 360px;
+    height: 360px;
+    padding-top: 70px;
+    border-radius: 5px;
+}
+
+.plan-card h1 {
+    margin-top: 30PX;
+}
+
+.plan-card p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+#card-1 {
+    background-color: #EEF6F7;
+}
+
+#card-2 {
+    background-color: #FFEFEF;
+}
+
+#card-3 {
+    background-color: #f7eccc;
+}
+
+#card-3 img {
+    width: 20px;
 }
