@@ -267,6 +267,8 @@
     
     footer h1 {
         color: #FF5959;
+        font-family: 'Lobster', cursive;
+        font-weight: 100;
     }
     
     footer p {
